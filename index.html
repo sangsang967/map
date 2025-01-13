@@ -1,0 +1,1910 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>复选框布局</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            background: url("./image/1.jpg");     
+            padding: 20px;
+        }
+
+        .box {
+            display: flex;
+            /* 让子元素竖向排列 */
+            align-items: flex-start;
+            /* 左对齐 */
+            width: 100%;
+            height: 100%;
+            /* 适当增加高度 */
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 15px;
+            transition: border-color 0.3s, background-color 0.3s;
+        }
+
+        .checkbox {
+            display: flex;
+            flex-direction: column;
+            /* 让子元素竖向排列 */
+            align-items: flex-start;
+            /* 左对齐 */
+            width: 180px;
+            height: 100%;
+            /* 适当增加高度 */
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 15px;
+            transition: border-color 0.3s, background-color 0.3s;
+        }
+
+        .checkbox-container {
+            display: flex;
+            align-items: center;
+            border: 2px solid #ccc;
+            width: 150px;
+            height: 25px;
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 15px;
+            background-color: #fff;
+            transition: border-color 0.3s, background-color 0.3s;
+        }
+
+        .checkbox-container1 {
+            display: flex;
+            align-items: center;
+            border: 2px solid transparent;
+            padding: 0;
+            /* 没有填充 */
+            width: 150px;
+            height: 25px;
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 15px;
+            transition: border-color 0.3s, background-color 0.3s;
+        }
+
+        .checkbox-container.active {
+            border-color: #007bff;
+            background-color: #e6f3ff;
+        }
+
+        .text-content {
+            flex: 1;
+        }
+
+        .title {
+            font-weight: bold;
+            margin-bottom: 5px;
+            width: 180px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="checkbox">
+            <div class="checkbox-container1">
+                <div class="text-content">
+                    <div class="title"></div>
+                </div>
+            </div>
+            <div class="checkbox-container1">
+                <div class="text-content">
+                    <div class="title"></div>
+                </div>
+            </div>
+            <div class="checkbox-container1">
+                <div class="text-content">
+                    <div class="title"></div>
+                </div>
+            </div>
+            <div class="checkbox-container1">
+                <div class="text-content">
+                    <div class="title"></div>
+                </div>
+            </div>
+            <div class="checkbox-container1">
+                <div class="text-content">
+                    <div class="title"></div>
+                </div>
+            </div>
+            <div class="checkbox-container1">
+                <div class="text-content">
+                    <div class="title"></div>
+                </div>
+            </div>
+            <div class="checkbox-container1">
+                <div class="text-content">
+                    <div class="title"></div>
+                </div>
+            </div>
+            <div class="checkbox-container1">
+                <div class="text-content">
+                    <div class="title"></div>
+                </div>
+            </div>
+            <div class="checkbox-container1">
+                <div class="text-content">
+                    <div class="title"></div>
+                </div>
+            </div>
+            <div class="checkbox-container1">
+                <div class="text-content">
+                    <div class="title"></div>
+                </div>
+            </div>
+            <div class="checkbox-container1">
+                <div class="text-content">
+                    <div class="title"></div>
+                </div>
+            </div>
+            <div class="checkbox-container1">
+                <div class="text-content">
+                    <div class="title"></div>
+                </div>
+            </div>
+            <div class="checkbox-container1">
+                <div class="text-content">
+                    <div class="title"></div>
+                </div>
+            </div>
+            <div class="checkbox-container1">
+                <div class="text-content">
+                    <div class="title"></div>
+                </div>
+            </div>
+            <div class="checkbox-container1">
+                <div class="text-content">
+                    <div class="title"></div>
+                </div>
+            </div>
+            <div class="checkbox-container1">
+                <div class="text-content">
+                    <div class="title"></div>
+                </div>
+            </div>
+            <div class="checkbox-container1">
+                <div class="text-content">
+                    <div class="title"></div>
+                </div>
+            </div>
+            <div class="checkbox-container1">
+                <div class="text-content">
+                    <div class="title"></div>
+                </div>
+            </div>
+            <div class="checkbox-container1">
+                <div class="text-content">
+                    <div class="title"></div>
+                </div>
+            </div>
+            <div class="checkbox-container1">
+                <div class="text-content">
+                    <div class="title"></div>
+                </div>
+            </div>
+            <div class="checkbox-container1">
+                <div class="text-content">
+                    <div class="title"></div>
+                </div>
+            </div>
+            <div class="checkbox-container1">
+                <div class="text-content">
+                    <div class="title"></div>
+                </div>
+            </div>
+            <div class="checkbox-container1">
+                <div class="text-content">
+                    <div class="title"></div>
+                </div>
+            </div>
+            <div class="checkbox-container1">
+                <div class="text-content">
+                    <div class="title"></div>
+                </div>
+            </div>
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">七星山脉</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">七重天界（距离:1）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">万丈海沟（距离:2）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">万丈瀑布下 （距离:3）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">万剑平原（距离:4）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">万灵圣地（距离:5）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">万里冰封之地（距离:6）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">不周山（距离:7）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">东胜神洲（距离:8）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">九天之上（距离:9）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">九天雷池（距离:10）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">九幽（距离:11）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">九幽冥河（距离:12）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">九幽寒潭 （距离:13）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">九幽深渊（距离:14）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">九幽渊（距离:15）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">云梦泽（距离:16）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">云海之上 （距离:17）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">云海涧（距离:18）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">云霄玉台（距离:19）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">五台山 （距离:20）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">人间意（距离:21）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">仙境图书馆（距离:22）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">仙宫（距离:23）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">仙岛深处（距离:24）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">仙梦花海（距离:25）</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="checkbox">
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">仙气汇聚之地（距离:24）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">仙泉旁（距离:23）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">仙灵果树（距离:22）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">仙界主峰（距离:21）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">仙界秘境深处（距离:20）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">仙界边界（距离:19）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">仙界遗迹内部（距离:18）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">仙草生长地（距离:17）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">仙鹤峰（距离:16）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">仙龙宝塔（距离:15）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">伏龙潭（距离:14）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">修仙界边境（距离:13）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">修炼室（距离:12）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">修真界战场（距离:11）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">光华净海（距离:10）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">光影幽境（距离:9）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">光明之谷（距离:8）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">光明洞窟（距离:7）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">光明顶（距离:6）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">光澜深渊（距离:5）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">光焰群岚（距离:4）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">光鸣之野（距离:3）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">八十八角真阳楼（距离:2）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">冥界（距离:1）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">冰封古城</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">冰焰绝地（距离:1）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">冰雪山脉（距离:2）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">冰雪洞窟（距离:3）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">冰魄寒域 （距离:4）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">凡间小镇（距离:5）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">凤栖谷（距离:6）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">剑气长城（距离:7）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">北寒冰原（距离:8）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">千年古道（距离:9）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">千年秘境（距离:10）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">千禧年科技学院（距离:11）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">南云灵墟（距离:12）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">南天幽域（距离:13）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">南岭苍霄（距离:14）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">南岳青云峰（距离:15）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">南极 （距离:16）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">南渊绝地（距离:17）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">南焰天宫（距离:18）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">南玄龙潭（距离:19）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">南荒秘境（距离:20）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">南辰幻境（距离:21）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">南风仙谷（距离:22）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">原初之星（距离:23）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">古仙战场（距离:24）</div>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="text-content">
+                    <div class="title">古代仙境（距离:25）</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="checkbox">
+            <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">古代遗迹（距离:24）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">古城遗址（距离:23）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">古城遗迹（距离:22）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">古墓内部（距离:21）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">古墓内部炼丹室（距离:20）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">古寺（距离:19）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">古庙中（距离:18）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">古族遗址（距离:17）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">古月仙岛（距离:16）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">古老洞窟（距离:15）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">古老湖泊（距离:14）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">古老秘境（距离:13）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">古老遗迹（距离:12）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">古荒秘境（距离:11）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">古药谷（距离:10）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">古道仙境（距离:9）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">命运之塔（距离:8）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">命运之巅（距离:7）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">命运神殿（距离:6）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">喜烛殿（距离:5）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">圣地之心（距离:4）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">地底洞穴（距离:3）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">地心（距离:2）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">地火深渊（距离:1）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">坊市</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">堕日岭（距离:1）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">多维交叉核心（距离:2）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">大型扫地机器人（距离:3）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">天上天宫（距离:4）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">天剑岭（距离:5）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">天台（距离:6）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">天台山（距离:7）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">天地异变现场（距离:8）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">天域传送门（距离:9）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">天境幻阵（距离:10）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">天墟古林（距离:11）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">天外天（距离:12）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">天山之巅（距离:13）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">天崖灵洞（距离:14）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">天机阁（距离:15）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">天枢之地（距离:16）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">天池（距离:17）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">天池圣湖（距离:18）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">天池岛（距离:19）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">天河之上（距离:20）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">天瀑灵崖（距离:21）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">天灵洞府（距离:22）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">天灾之域（距离:23）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">天玄塔（距离:24）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">天玑星域（距离:25）</div>
+                </div>
+              </div>
+              
+        </div>
+        <div class="checkbox">
+            <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">天璇峰（距离:24）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">天界中殿（距离:23）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">天界之门（距离:22）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">天界裁决殿（距离:21）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">天空之城（距离:20）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">天绝崖（距离:19）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">天翔崖（距离:18）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">天道之巅（距离:17）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">天道试炼场（距离:16）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">天门山（距离:15）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">天际地平线（距离:14）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">天雷台（距离:13）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">天雷浩瀚（距离:12）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">天雷绝崖（距离:11）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">太上忘情谷（距离:10）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">太乙仙宫（距离:9）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">太初云墟（距离:8）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">太初古界（距离:7）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">太古遗迹（距离:6）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">太清仙境（距离:5）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">太湖中心（距离:4）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">太虚幻境（距离:3）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">太虚谷（距离:2）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">奇异沙漠（距离:1）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">奈何崖</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">奈何桥（距离:1）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">妖族圣地（距离:2）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">学园都市（距离:3）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">宇宙中枢（距离:4）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">宇宙枢纽（距离:5）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">宇宙法则之心（距离:6）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">宇宙深渊（距离:7）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">宇宙混沌边缘（距离:8）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">宇宙结界交汇点（距离:9）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">宇宙边界（距离:10）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">宗门丹房（距离:11）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">宗门内院（距离:12）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">宗门后山（距离:13）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">宗门大门（距离:14）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">宗门山门（距离:15）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">宗门山门前（距离:16）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">宗门广场（距离:17）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">宗门比武场（距离:18）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">宗门演武场（距离:19）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">宗门灵兽山（距离:20）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">宗门藏书阁（距离:21）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">宴会大厅（距离:22）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">家中（距离:23）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">密林深处（距离:24）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">寒冰峡谷（距离:25）</div>
+                </div>
+              </div>
+              
+        </div>
+        <div class="checkbox">
+            <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">寒冰林海（距离:24）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">寒月海（距离:23）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">寒潭（距离:22）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">寒潭之畔（距离:21）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">寒霜雪域（距离:20）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">封印之地（距离:19）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">小汤圆神界（距离:18）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">小河旁（距离:17）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">小镇古塔（距离:16）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">居所（距离:15）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">居所密室（距离:14）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">居所门外（距离:13）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">山中（距离:12）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">山中密林（距离:11）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">山中洞府（距离:10）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">山巅（距离:9）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">山村剑冢（距离:8）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">山林小径（距离:7）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">山洞内（距离:6）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">山洞深处（距离:5）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">山海经（距离:4）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">山谷深处（距离:3）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">山谷灵泉（距离:2）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">山门外（距离:1）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">山间奇泉</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">山顶（距离:1）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">师门内部（距离:2）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">帝一宫（距离:3）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">常盘台（距离:4）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">平行世界遗迹（距离:5）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">幻境之海（距离:6）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">幻影岛（距离:7）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">幻月平川（距离:8）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">幻海迷宫（距离:9）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">幻灵山谷（距离:10）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">幻灵秘境（距离:11）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">幽冥洞（距离:12）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">幽冥边界（距离:13）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">幽冥鬼域（距离:14）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">幽冥鬼谷（距离:15）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">幽暗星域（距离:16）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">幽深秘境（距离:17）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">幽深竹海（距离:18）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">异界密林（距离:19）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">异界深处（距离:20）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">异界秘境（距离:21）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">异界遗迹（距离:22）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">归墟之地（距离:23）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">归墟海眼（距离:24）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">往世乐土（距离:25）</div>
+                </div>
+              </div>
+              
+        </div>
+        <div class="checkbox">
+            <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">心动仙谷（距离:24）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">心动天宫（距离:23）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">忘川河畔（距离:22）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">忘忧谷（距离:21）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">扶摇山谷（距离:20）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">断魂崖（距离:19）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">旋转的时间流沙（距离:18）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">无名仙地（距离:17）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">无名仙山（距离:16）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">无名秘境（距离:15）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">无垠空域（距离:14）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">无尽剑冢（距离:13）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">无尽幻境（距离:12）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">无尽海域（距离:11）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">无尽深渊（距离:10）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">无尽试炼之域（距离:9）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">无极玄宫 （距离:8）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">无极长河（距离:7）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">无量仙河（距离:6）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">无量界域（距离:5）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">日落湾（距离:4）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">时代商会（距离:3）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">时代灵场（距离:2）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">时光之塔（距离:1）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">时光古道</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">时光古阵（距离:1）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">时光流转之地（距离:2）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">时光秘池（距离:3）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">时光竹林（距离:4）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">时分古林（距离:5）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">时分灵巢（距离:6）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">时刻秘径（距离:7）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">时常狂风呼啸的山巅（距离:8）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">时气遗迹（距离:9）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">时流瀑布（距离:10）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">时空之涡（距离:11）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">时空交汇点（距离:12）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">时空凝滞沙漠（距离:13）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">时空山崖（距离:14）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">时空核心（距离:15）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">时空洞窟（距离:16）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">时空灵塔（距离:17）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">时空灵谷（距离:18）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">时空藤谷（距离:19）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">时空裂缝（距离:20）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">时而流水潺潺的古桥（距离:21）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">时节天穹（距离:22）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">时节灵地（距离:23）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">时辰灵塔（距离:24）</div>
+                </div>
+              </div>
+              
+              <div class="checkbox-container">
+                <div class="text-content">
+                  <div class="title">时间天池（距离:25）</div>
+                </div>
+              </div>
+        </div>
+        <div class="checkbox">
+            
+        </div>
+        <div class="checkbox">
+
+        </div>
+        <div class="checkbox">
+
+        </div>
+        <div class="checkbox">
+
+        </div>
+        <div class="checkbox">
+
+        </div>
+    </div>
+    <script>
+        // JavaScript to toggle the active class on container when checkbox is checked
+        // 选择所有checkbox容器
+        const containers = document.querySelectorAll('.checkbox-container');
+
+        containers.forEach(container => {
+            container.addEventListener('click', () => {
+                // 切换active类来改变容器的样式
+                container.classList.toggle('active');
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>
